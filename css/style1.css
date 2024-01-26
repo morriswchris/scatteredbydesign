@@ -1,5 +1,5 @@
 /* To Navigation Style */
-.codrops-top {
+nav.codrops-top {
 	width: 100%;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -7,23 +7,28 @@
 	line-height: 2.2;
 }
 
-.codrops-top a {
+nav.codrops-top a {
 	display: inline-block;
 	padding: 2em;
 	text-decoration: none;
 	letter-spacing: 1px;
+	color: #be4856;
 }
 
-.codrops-top span.right {
+nav.codrops-top span.right {
 	float: right;
 }
 
-.codrops-top span.right a {
+nav.codrops-top span.right a {
 	display: block;
 	float: left;
 }
 
-.codrops-icon:before {
+nav {
+color: #be4856;
+}
+
+nav.codrops-icon:before {
 	margin: 0 4px;
 	text-transform: none;
 	font-weight: normal;
@@ -35,15 +40,15 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.codrops-icon-drop:before {
+nav.codrops-icon-drop:before {
 	content: "\e001";
 }
 
-.codrops-icon-mail:before {
+nav.codrops-icon-mail:before {
 	content: "\e002";
 }
 
-.codrops-icon-prev:before {
+nav.codrops-icon-prev:before {
 	content: "\e004";
 }
 
