@@ -24,9 +24,11 @@ nav.codrops-top span.right a {
 	float: left;
 }
 
-nav {
+nav, nav a {
 color: #be4856;
 }
+
+nav .codrops-icon span { display: inline; }
 
 nav codrops-icon:before {
 	margin: 0 4px;
