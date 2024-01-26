@@ -1,3 +1,52 @@
+/* To Navigation Style */
+.codrops-top {
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.69em;
+	line-height: 2.2;
+}
+
+.codrops-top a {
+	display: inline-block;
+	padding: 2em;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	display: block;
+	float: left;
+}
+
+.codrops-icon:before {
+	margin: 0 4px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'codropsicons';
+	line-height: 1;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.codrops-icon-mail:before {
+	content: "\e002";
+}
+
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+
 .grid {
 	position: relative;
 	margin: 0 auto;
@@ -146,7 +195,7 @@
 	padding: 2em 1em;
 	text-align: center;
 	opacity: 0;
-	background: linear-gradient(180deg, transparent, #1f1d1d);
+	background: linear-gradient(180deg, transparent, #f9a9a5);
 	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	transition: opacity 0.3s, transform 0.3s;
 	-webkit-transform: translate3d(0, 100%, 0);
