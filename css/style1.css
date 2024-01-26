@@ -195,7 +195,7 @@
 	padding: 2em 1em;
 	text-align: center;
 	opacity: 0;
-	background: linear-gradient(180deg, transparent, #f9a9a5);
+	background: linear-gradient(180deg, transparent, #1f1d1d);
 	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	transition: opacity 0.3s, transform 0.3s;
 	-webkit-transform: translate3d(0, 100%, 0);
