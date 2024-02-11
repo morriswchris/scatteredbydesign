@@ -215,3 +215,11 @@ button:focus {
 		font-size: 2.15em;
 	}
 }
+
+.footer {
+    margin: 0 20%;
+    padding: 0.5em 0 1em;
+    color: #be4856;
+    text-align: center;
+    line-height: 1;
+}
